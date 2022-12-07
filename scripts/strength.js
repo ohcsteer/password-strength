@@ -5,6 +5,15 @@ document.addEventListener("keyup", function(e) {
 	document.getElementById("result").textContent = strength.feedback.warning;
 	if (pass != "") {
 		document.getElementById("crack-time").textContent = "Cracked in " + strength.crack_times_display.offline_slow_hashing_1e4_per_second;
+		/*
+			online_throttling_100_per_hour
+
+			online_no_throttling_10_per_second
+
+			offline_slow_hashing_1e4_per_second
+
+			offline_fast_hashing_1e10_per_second
+		*/
 		if (strength.score == 0) {
 			container.classList.add("none");
 			container.classList.remove("bad");
