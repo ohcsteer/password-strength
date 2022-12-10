@@ -22,7 +22,8 @@ body {
 	position: relative;
 	width: 30em;
 	padding: 1.875em;
-	background: #222;
+	/*background: #222;*/
+	background-color: rgba(66, 66, 66, 0.219);
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -30,6 +31,7 @@ body {
 	border-radius: 0.3125em;
 	gap: 0.625em;
 	box-shadow: 0 0 0.625em rgba(254, 83, 94, 0.25);
+	backdrop-filter: blur(100px);
 	/* padding-bottom: 4.375em; */
 }
 
