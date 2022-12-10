@@ -4,8 +4,8 @@ A website using zxcvbn to check the strength of passwords, rated on a scale of 0
 
 **20221210**</br>
 Desktop:
-> ![image](https://user-images.githubusercontent.com/50123021/206826780-28b49221-43ca-42bb-90a1-a8b89ef282fb.png)
+> ![image](https://user-images.githubusercontent.com/50123021/206826930-6fd3e09a-f166-46f2-81f6-eb4df3a26c64.png)
 
 Mobile:
-> ![image](https://user-images.githubusercontent.com/50123021/206826797-b42a1935-b0fd-4d4a-8b4f-007215e3e39f.png)
+> ![image](https://user-images.githubusercontent.com/50123021/206826917-296a9641-eff4-41d4-8e9d-6c8593b7dede.png)
 
