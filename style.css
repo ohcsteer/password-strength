@@ -17,6 +17,25 @@ body {
 	font-weight: 500;
 }
 
+.loader {
+	position: absolute;
+	border: 1em solid #333;
+	border-top: 1em solid /*rgb(255, 255, 255)*/rgb(254, 83, 94);
+	border-radius: 100%;
+	width: 7.5em;
+	height: 7.5em;
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
 .container {
 	color:rgba(254, 83, 94, 0.75);
 	position: relative;
